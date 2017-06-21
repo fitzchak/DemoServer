@@ -21,7 +21,7 @@ namespace DemoServer.Helpers
 
         public static void SetDbInfo(string url, string dbNameNorthwind, string dbNameMedia)
         {
-            Url = url;
+            Url = "http://Raven-NUC-2:8080";
             NorthwindDatabaseName = dbNameNorthwind;
             MediaDatabaseName = dbNameMedia;
         }
